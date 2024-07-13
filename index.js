@@ -29,6 +29,6 @@ app.get('/about-page', (request, response) => {
     });
 });
 
-app.listen(process.env.PORT || 4001, () => {
-    console.log('App available on http://localhost:4001');
+app.listen(process.env.PORT || 4000, () => {
+    console.log('App available on http://localhost:4000');
 });
