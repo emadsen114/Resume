@@ -67,38 +67,52 @@
             padding: 10px;
         }
 
+        .link-button:hover {
+            text-decoration: none;
+            color: #087E8B;
+            cursor: pointer;
+            padding: 10px;
+        }
+
         
-        .btn-outline-success {
+        .btn-outline{
         border-color: #087E8B;
         color: #087E8B;
         outline: none;
+        text-align: center;
         background-color: transparent;
         transition: background-color 0.3s ease;
     }
 
-    .btn-outline-success:hover {
-        border-color: #087E8B;
-        color: #A0B0E3;
-        background-color: #087E8B;
-    }
+        .btn-outline:hover {
+            border-color: #087E8B;
+            color: #A0B0E3;
+            background-color: #087E8B;
+        }
 
-    .btn-outline-success:active {
-        border-color: #087E8B;
-        color: #A0B0E3;
-        background-color: #087E8B;
-    }
+        .btn-outline:active {
+            border-color: #087E8B;
+            color: #A0B0E3;
+            background-color: #087E8B;
+        }
+
         
     </style>
 
     <title>Landing Page</title>
 </head>
 <body>
-    <h2><a href="about-page">About</a></h2>
+    <div class ='link-container'>
+        <a href="about-page" class = "link-button">About</a>
+        <a href="experience-page" class = "link-button">Experience</a>
+
+    </div>
+
     <h1>Hi, my name is,</h1>
     <div class="header-text">Emily Madsen.</div>
     <div class="subheader-text">Super cool software designer.</div>
     <h1>blah blah blah blah</h1>
-    <button type="button" class="btn btn-outline-success">yey</button>
+    <button type="button" class="btn btn-outline">yey</button>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
