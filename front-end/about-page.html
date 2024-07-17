@@ -10,7 +10,8 @@
     
     <style>
         body {
-            background-color: #101935;
+            font-family: 'Source Code Pro', Arial, sans-serif; /* Apply Google Font */
+            background-color: #101935 ;
             display: flex;
             flex-direction: column;
             justify-content: flex-start; 
@@ -46,11 +47,48 @@
             padding-top: 30px;        
         }
 
+        .top-container {
+            text-align: right;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center; 
+            padding-top: 20px;
+        }
+
+        .top-container-numbers {
+            text-decoration: none;
+            color: #087E8B;
+            cursor: pointer;
+            margin: 0 10px; 
+            font-size: 16px; 
+            line-height: 1; /* ok hopefully theyre all on the same line now */
+            display: inline-block;
+        }
+
+        .top-container-words {
+            text-decoration: none;
+            color: whitesmoke;
+            cursor: pointer;
+            margin: 0 10px; 
+            font-size: 16px; 
+            line-height: 1; /* ok hopefully theyre all on the same line now */
+            display: inline-block;
+        }
+
+        /* i need to create some containers for 
+        a bakcground image with text over it */
+
+        
         
     </style>
     <title>About</title>
 </head>
-<body>
+<body> 
+    <div class = "top-container">
+        <h3 class="top-container-numbers"> 01.</h3>
+        <h3 class = "top-container-words"> About</h3>
+    </div>
+    
     <div>
         <img src="/images/Emily_Madsen.jpg" alt="Emily Madsen"/>
         <header>Hello</header>
