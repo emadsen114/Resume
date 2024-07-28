@@ -1,0 +1,117 @@
+body {
+    font-family: 'Source Code Pro', Arial, sans-serif; /* Apply Google Font */
+    background-color: #101935;
+    color: #0b132b;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+.link-container {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-top: 20px;
+}
+
+.link-numbers {
+    text-decoration: none;
+    color: #087E8B;
+    cursor: pointer;
+    margin: 0 10px; 
+    font-size: 14px; 
+    line-height: 1; /* ok hopefully theyre all on the same line now */
+    display: inline-block;
+}
+
+.link-button:hover {
+    text-decoration: none;
+    color: #087E8B;
+    cursor: pointer;
+}
+
+.link-button {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 0 10px; 
+    font-size: 14px; 
+    line-height: 1;
+    display: inline-block; 
+}
+
+.top-container {
+    text-align: right;
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+    padding-top: 20px;
+    margin: 0; /* Ensure no margin affects spacing */
+    line-height: 1; /* Ensure consistent line height */
+}
+
+.top-container-numbers {
+    text-decoration: none;
+    color: #087E8B;
+    cursor: pointer;
+    margin: 0 10px; 
+    font-size: 18px; 
+    line-height: 1; /* ok hopefully theyre all on the same line now */
+    display: inline-block;
+    
+}
+
+.top-container-words {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 0 10px; 
+    font-size: 18px; 
+    line-height: 1; /* ok hopefully theyre all on the same line now */
+    display: inline-block;
+}
+h3{
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+header {
+    text-align: center;
+    color: #A0B0E3;
+    font-size: 60px;
+    margin-top: 20px; 
+}
+.picture-left-container {
+    flex-direction: row;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 20px;
+    padding-left: 20%;
+    
+}
+
+.picture-right-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-top: 20px;
+    padding-right: 20%;
+    
+}
+
+p{
+    font-size: 15px;
+    color: #A0B0E3;
+    padding-left: 5%;
+}
+
+img {
+    width: 325px; 
+    height: 250px;
+    object-fit: cover; /* Ensure the image covers the entire space */
+    object-position: center;
+}
