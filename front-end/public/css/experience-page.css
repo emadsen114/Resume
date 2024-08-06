@@ -124,7 +124,7 @@ header {
 }
 
 img {
-    width: 375px; 
+    width: 400px; 
     height: 250px;
     object-fit: cover; /* Ensure the image covers the entire space */
     object-position: center;
