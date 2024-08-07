@@ -61,8 +61,8 @@ h3{
 .link-container {
     text-align: right;
     display: flex;
-    justify-content: flex-end; /* Align items to the end (right) of the container */
-    align-items: center;
+    justify-content: flex-end; 
+    align-items: center; 
     padding-top: 20px;
 }
 

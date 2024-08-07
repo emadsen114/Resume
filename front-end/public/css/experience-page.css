@@ -138,5 +138,18 @@ img:hover {
     
 }
 
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+    padding: 20px; /* Optional: Add some padding */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
 
-
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
