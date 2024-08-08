@@ -45,20 +45,24 @@
         }
 
         .top-container {
-            display: flex;
-            justify-content: flex-end; 
-            align-items: center; 
-            padding-top: 5px;
-        }
+        text-align: right;
+        display: flex;
+        justify-content:center; 
+        align-items: center; 
+        padding-top: 20px;
+        margin: 0; /* Ensure no margin affects spacing */
+        line-height: 1; /* Ensure consistent line height */
+    }
 
         .top-container-numbers {
             text-decoration: none;
             color: #087E8B;
             cursor: pointer;
             margin: 0 10px; 
-            font-size: 16px; 
+            font-size: 18px; 
             line-height: 1; /* ok hopefully theyre all on the same line now */
             display: inline-block;
+            
         }
 
         .top-container-words {
@@ -66,44 +70,42 @@
             color: whitesmoke;
             cursor: pointer;
             margin: 0 10px; 
-            font-size: 16px; 
+            font-size: 18px; 
             line-height: 1; /* ok hopefully theyre all on the same line now */
             display: inline-block;
         }
-
         .link-container {
-            text-align: right;
-            display: flex;
-            justify-content: flex-end; 
-            align-items: center; 
-            padding-top: 20px;
-        }
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-top: 20px;
+}
 
-        .link-numbers {
-            text-decoration: none;
-            color: #087E8B;
-            cursor: pointer;
-            margin: 0 10px; 
-            font-size: 14px; 
-            line-height: 1; /* ok hopefully theyre all on the same line now */
-            display: inline-block;
-        }
+.link-numbers {
+    text-decoration: none;
+    color: #087E8B;
+    cursor: pointer;
+    margin: 0 5px; /* Adjust margin for spacing between items */
+    font-size: 14px;
+    line-height: 1;
+}
 
-        .link-button:hover {
-            text-decoration: none;
-            color: #087E8B;
-            cursor: pointer;
-        }
+.link-button:hover {
+    text-decoration: none;
+    color: #087E8B;
+    cursor: pointer;
+}
 
-        .link-button {
-            text-decoration: none;
-            color: whitesmoke;
-            cursor: pointer;
-            margin: 0 10px; /* Adjust margin as needed for spacing */
-            font-size: 14px; /* Adjust font size as needed */
-            line-height: 1; /* Ensure consistent line height */
-            display: inline-block; /* Ensure consistent inline-block behavior */
-        }
+.link-button {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust margin as needed for spacing */
+    font-size: 14px; /* Adjust font size as needed */
+    line-height: 1; /* Ensure consistent line height */
+    display: inline-block; /* Ensure consistent inline-block behavior */
+}
 
         .container {
             align-items: center;
