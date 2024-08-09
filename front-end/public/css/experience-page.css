@@ -82,14 +82,16 @@ header {
     color: #A0B0E3;
     font-size: 60px;
     margin-top: 20px; 
+    margin-bottom: 20px;
 }
 .picture-left-container {
+    position: relative;
     flex-direction: row;
     display: flex;
     align-items: left;
     justify-content: left;
     padding-top: 20px;
-    padding-left: 20%;
+    padding-left: 15%;
     padding-bottom: 20px;
     
 }
@@ -100,31 +102,13 @@ header {
     justify-content: right;
     align-items: right;
     padding-top: 20px;
-    padding-right: 20%;
-    padding-bottom: 20px;
+    padding-right: 15%;
+    padding-bottom: 10px;
     
 }
 
-.p-for-left{
-    display: flex;
-    font-size: 15px;
-    color: #A0B0E3;
-    text-align: right;
-    padding-left: 5%;
-    padding-right: 25%;
-}
-
-.p-for-right{
-    display: flex;
-    font-size: 15px;
-    color: #A0B0E3;
-    text-align: left;
-    padding-left: 25%;
-    padding-right: 5%;
-}
-
 img {
-    width: 400px; 
+    width: 500px; 
     height: 250px;
     object-fit: cover; /* Ensure the image covers the entire space */
     object-position: center;
@@ -152,4 +136,70 @@ img:hover {
     .container {
         padding: 10px; /* Adjust padding for smaller screens */
     }
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+
+
+.word-container-left{
+    display: flex;
+    font-size: 15px;
+    text-align: right;
+    padding-left: 5%;
+    padding-right: 18%;
+    flex-direction: column;
+}
+
+
+.p-for-left{
+    color: #A0B0E3;
+    margin: 0;
+    padding: 0;
+}
+
+.p-for-right{
+    display: flex;
+    font-size: 15px;
+    color: #A0B0E3;
+    text-align: left;
+    padding-left: 17.5%;
+    padding-right: 5%;
+}
+
+a{
+    color: #087E8B;
+    text-decoration: none;
+}
+
+.github-logo{ 
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: white;
+}
+
+.external-link-logo{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    filter: invert(100%);
+}
+
+
+
+.link-icons{
+    display: flex;
+    justify-content: center; /* Centers logos horizontally */
+    align-items: center; /* Centers logos vertically */
+    flex-direction: row;
+    line-height: 1;
 }
